@@ -1,0 +1,728 @@
+.main {
+  width: 100%; 
+  height: 100%; 
+  background: white; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  display: inline-flex
+}
+
+.header {
+  align-self: stretch; 
+  height: 229px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  display: flex;
+  /* width: 100%; */
+}
+
+.redLine {
+  width: 100%; 
+  align-self: stretch; 
+  height: 5px; 
+  padding: 10px; 
+  background: #C62E3E
+}
+
+.top {
+  align-self: stretch; 
+  padding-left: 60px; 
+  padding-right: 60px; 
+  padding-top: 30px; 
+  padding-bottom: 30px; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex
+}
+
+/* .logoSize {
+  width: 30%;
+} */
+
+.infoInHeader {
+  flex: 1 1 0; 
+  height: 90px; 
+  padding: 10px; 
+  justify-content: flex-end; 
+  align-items: center; 
+  gap: 60px; 
+  display: flex
+}
+
+.phoneInHeader {
+  padding: 10px; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: flex-end; 
+  gap: 1px; 
+  display: inline-flex
+}
+
+.phoneNumber {
+  color: #C62E3E; 
+  font-size: 20px; 
+  font-family: Montserrat; 
+  font-weight: 500; 
+  word-wrap: break-word
+}
+
+.phoneTimes {
+  color: rgba(0, 0, 0, 0.50); 
+  font-size: 15px; 
+  font-family: Montserrat; 
+  font-weight: 500; 
+  line-height: 30px; 
+  word-wrap: break-word
+}
+
+.page {
+  align-self: stretch; 
+  /* height: 1627px;  */
+  padding: 60px; 
+  padding-top: 0px;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  /* gap: px;  */
+  display: flex
+}
+
+.props {
+  align-self: stretch; 
+  /* height: 709px;  */
+  padding-left: 60px; 
+  padding-right: 60px; 
+  padding-bottom: 60px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 15px; 
+  max-width: 1600px;
+  display: flex;
+  position: relative;
+}
+
+.headerInPage {
+  align-self: stretch; 
+  /* padding: 10px;  */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex
+}
+
+.headerInPageFont {
+  color: black; 
+  font-size: 30px; 
+  font-family: Montserrat; 
+  font-weight: 500; 
+  word-wrap: break-word
+}
+
+.nameOfProgramField {
+  align-self: stretch; 
+  padding-left: 20px; 
+  padding-right: 20px; 
+  padding-top: 15px; 
+  padding-bottom: 15px; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  border: 1px #AFAFAF solid; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex;
+  max-width: 1600px;
+  /* width: 100%; */
+  flex-direction: column;
+  overflow: hidden; 
+
+  /* position: absolute; */
+  /* z-index: 3000; */
+}
+
+.burgerSearch {
+  /* padding-top: 10px; 
+  padding-bottom: 10px;  */
+  background: white; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  border: 1px #AFAFAF solid; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: flex-start; 
+  display: inline-flex;
+  width: 100%;
+}
+
+.burgerSearch:hover {
+  background: #FCFCFC;
+}
+
+.searchLine {
+  align-self: stretch; 
+  padding: 10px; 
+  border-top: 1px #AFAFAF solid; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex;
+  height: 24px;
+  position: relative;
+  /* width: 100%; */
+  /* width: 1250px; */
+  /* width: fit-content; */
+}
+
+.lineInProps {
+  align-self: stretch; 
+  padding-top: 15px; 
+  padding-bottom: 15px; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 90px; 
+  display: flex;
+  max-width: 1600px;
+  height: 55.6px;
+  /* position: relative; */
+  /* width: 100%; */
+  /* min-width: 1477px; */
+}
+
+.lineInPropsButtons {
+  align-self: stretch; 
+  padding-top: 15px; 
+  padding-bottom: 15px; 
+  padding-right: 10px;
+  border-radius: 10px; 
+  overflow: hidden; 
+  justify-content: flex-end; 
+  align-items: center; 
+  gap: 50px; 
+  display: flex;
+  max-width: 1600px;
+  height: 55.6px;
+  /* position: relative; */
+  /* width: 100%; */
+  /* min-width: 1477px; */
+}
+
+.propSearchLine {
+  position: absolute; z-index: 2000;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 30px; 
+  display: inline-flex;
+  /* width: 100%; */
+  width: 1600px;
+}
+
+.propEduLevel {
+  position: absolute; z-index: 1000;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 30px; 
+  display: inline-flex;
+}
+
+.propFaculty {
+  position: absolute; z-index: 900;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 30px; 
+  display: inline-flex;
+}
+
+.propPrepLevel {
+  position: absolute; left: 60%; z-index: 1000;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 30px; 
+  display: inline-flex;
+}
+
+.propEduForm {
+  position: absolute; left: 60%; z-index: 900;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 30px; 
+  display: inline-flex;
+}
+
+.propExams {
+  /* position: absolute; z-index: 600; */
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 30px; 
+  display: inline-flex;
+  flex-direction: column;
+  /* position: relative; */
+  /* width: 700px; */
+}
+
+.examsInner {
+  gap: 30px; 
+  display: inline-flex; 
+  position: absolute; 
+  z-index: 600;
+}
+
+.examsNames {
+  height: 24px; 
+  width: fit-content; 
+  padding: 10px 20px; 
+  background: #C62E3E; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  display: flex;
+  margin-bottom: 10px; margin-left: 10px; margin-right: 10px;
+}
+
+.nameOfProp {
+  color: black; 
+  font-size: 17px; 
+  font-family: Montserrat; 
+  font-weight: 400; 
+  word-wrap: break-word;
+  display: inline-flex;
+  align-items: center;
+  height: 45.6px;
+  /* width: 300px; */
+  /* position: relative; */
+  /* width: 100%; */
+}
+
+.burger {
+  /* padding-top: 10px; 
+  padding-bottom: 10px;  */
+  background: white; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  border: 1px #C62E3E solid; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: flex-start; 
+  display: inline-flex;
+  /* width: 100%; */
+}
+
+.burger:hover {
+  background: #FFFBFB;
+}
+
+.arrowInBurger {
+  justify-content: flex-end; 
+  display: inline-flex; 
+  position: absolute; right: 10px;
+}
+
+.innerBurger {
+  width: fit-content; 
+  padding-left: 10px; 
+  padding-right: 10px; 
+  justify-content: center;
+   align-items: center; 
+   display: inline-flex
+}
+
+.burgerLine {
+  align-self: stretch; 
+  padding: 10px; 
+  border-top: 1px #C62E3E solid; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex;
+  height: 24px;
+  position: relative;
+  /* width: fit-content; */
+}
+
+.burgerLineFaculty {
+  align-self: stretch; 
+  padding: 10px; 
+  border-top: 1px #C62E3E solid; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex;
+  height: 24px;
+  position: relative;
+  width: 545px; 
+  /* width: fit-content; */
+}
+
+.burgerLineEduLevel {
+  align-self: stretch; 
+  padding: 10px; 
+  border-top: 1px #C62E3E solid; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex;
+  height: 24px;
+  position: relative;
+  width: 400px; 
+  /* width: fit-content; */
+}
+
+.burgerLineExams {
+  align-self: stretch; 
+  padding: 10px; 
+  border-top: 1px #C62E3E solid; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex;
+  height: 24px;
+  position: relative;
+  width: 601px; 
+  /* width: fit-content; */
+}
+
+.burgerLinePrepLevel {
+  align-self: stretch; 
+  padding: 10px; 
+  border-top: 1px #C62E3E solid; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex;
+  height: 24px;
+  position: relative;
+  width: 268px; 
+  /* width: fit-content; */
+}
+
+.burgerLineFormOfLearning {
+  align-self: stretch; 
+  padding: 10px; 
+  border-top: 1px #C62E3E solid; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex;
+  height: 24px;
+  position: relative;
+  width: 298px; 
+  /* width: fit-content; */
+}
+
+.burgerLine:hover {
+  background: #FFE5E5
+}
+
+.exams {
+  position: absolute;
+  left: 40%;
+  display: inline-flex; 
+  flex-wrap: wrap; 
+  max-width: 800px;
+}
+
+.forSearchButton {
+  align-self: stretch; 
+  padding-left: 20px; 
+  padding-right: 20px; 
+  padding-top: 30px; 
+  padding-bottom: 15px; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  justify-content: flex-end; 
+  align-items: center; 
+  gap: 50px; 
+  display: inline-flex
+}
+
+.searchButton {
+  width: 106px; 
+  padding-left: 20px; 
+  padding-right: 20px; 
+  padding-top: 15px; 
+  padding-bottom: 15px; 
+  background: #C62E3E;
+  box-shadow: 1px 1px 5px rgba(80.96, 0, 0, 0.86);
+  border-radius: 10px; 
+  overflow: hidden; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  display: flex;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background: #AD1525; 
+}
+
+.searchButton:active {
+  background-color: #94111F;
+}
+
+.clearButton {
+  width: 200px; 
+  padding-left: 20px; 
+  padding-right: 20px; 
+  padding-top: 15px; 
+  padding-bottom: 15px; 
+  background: #F0F0F0; 
+  box-shadow: 1px 1px 5px rgba(57.80, 0, 0, 0.25); 
+  border-radius: 10px; 
+  overflow: hidden; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  display: flex;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.clearButton:hover {
+  background: #EAEAEA;
+}
+
+.clearButton:active {
+  background-color: #CFCFCF;
+}
+
+.infoAboutPrograms {
+  height: 100%;
+  /* width: 100%; */
+  align-self: stretch;
+  padding: 60px;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 30px; 
+  display: inline-flex;
+  max-width: 1600px;
+}
+
+.infoAboutProgram {
+  width: 1300px;
+  /* padding-left: 60px; 
+  padding-right: 60px;  */
+  padding-top: 40px; 
+  padding-bottom: 40px; 
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(153, 153, 153, 0.21) 100 */
+  border-top: 1px #AFAFAF solid; border-bottom: 1px #AFAFAF solid; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  /* align-items: center;  */
+  gap: 30px; 
+  display: inline-flex
+}
+
+.nameOfProgram {
+  display: inline-flex; 
+  align-items: flex-end; 
+  padding-bottom: 20px; 
+  color: black; 
+  font-size: 30px; 
+  font-family: Montserrat; 
+  font-weight: 500; 
+  word-wrap: break-word; 
+  /* height: 80px; */
+  /* min-height: 80px; */
+}
+
+.infoBlocks {
+  display: inline-flex;
+  flex-direction: row; 
+}
+
+.learnMore {
+  /* padding-top: 50px;  */
+  width: 100%;
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex
+}
+
+.blockOfInfo {
+  align-self: stretch; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 800px;
+  height: 100%;
+}
+
+.propsBlocks {
+  /* width: 100%; */
+  width: fit-content;
+  /* flex: 1 1 0;  */
+  align-self: stretch; 
+  padding-left: 5px; 
+  padding-right: 5px; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  /* border-right: 1px #AFAFAF solid;  */
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: flex-start; 
+  display: inline-flex
+}
+
+.typeOfProps {
+  align-self: stretch; 
+  flex: 1 1 0; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex
+}
+
+.topCharBlock {
+  flex: 1 1 0; 
+  justify-content: flex-start; 
+  align-items: center; 
+  display: inline-flex; 
+  gap: 40px; 
+  width: 100%;
+  position: relative;
+  /* height: 200px; */
+}
+
+.propAndMean {
+  align-self: stretch; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex
+}
+
+.meanOfProp {
+  flex: 1 1 0; 
+  padding: 10px; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: flex
+}
+
+.topCharBlockRow {
+  border-bottom: 1px #AFAFAF solid;
+  flex: 1 1 0; 
+  justify-content: flex-start; 
+  align-items: center; 
+  display: inline-flex; 
+  gap: 40px; 
+  width: 100%;
+}
+
+.charBlock {
+  flex: 1 1 0; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: flex-start; 
+  gap: 30px; 
+  display: inline-flex; 
+  width: 100%; 
+}
+
+.finInfoRow {
+  align-self: stretch; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: inline-flex
+}
+
+.USEblock {
+  align-self: stretch; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex; 
+  flex-direction: row;
+}
+
+.enterExamsBlock {
+  align-self: stretch; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex;
+  flex-direction: row;
+}
+
+/* fonts */
+
+.grey20 {
+  color: #AFAFAF; 
+  font-size: 17px; 
+  font-family: Montserrat; 
+  font-weight: 400; 
+  word-wrap: break-word;
+  /* display: inline-flex; */
+}
+
+.grey20-500 {
+  color: #AFAFAF; 
+  font-size: 17px; 
+  font-family: Montserrat; 
+  font-weight: 500; 
+  word-wrap: break-word;
+  /* display: inline-flex; */
+}
+
+.red20 {
+  color: #C62E3E; 
+  font-size: 17px; 
+  font-family: Montserrat; 
+  font-weight: 400; 
+  word-wrap: break-word;
+  width: max-content;
+
+}
+
+.black20 {
+  color: black; 
+  font-size: 17px; 
+  font-family: Montserrat; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+
+.black20-500 {
+  color: black; 
+  font-size: 17px; 
+  font-family: Montserrat; 
+  font-weight: 500; 
+  word-wrap: break-word
+}
+
+.black30-500 {
+  color: black; 
+  font-size: 20px; 
+  font-family: Montserrat; 
+  font-weight: 500; 
+  word-wrap: break-word
+}
+
+.white20 {
+  color: white; 
+  font-size: 17px; 
+  font-family: Montserrat; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+
